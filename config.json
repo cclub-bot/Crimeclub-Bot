@@ -1,0 +1,48 @@
+{
+   "username":"xxx",
+   "password":"xxx",
+   "session":"",
+   "max_captcha_attempt":8,
+   "bullets":{
+      "min_bullets":"90k",
+      "bullet_small_batch":50,
+      "bullet_small_batch_cash":"10m",
+      "bullet_medium_batch":100,
+      "bullet_medium_batch_cash":"50m",
+      "bullet_large_batch":500,
+      "bullet_large_batch_cash":"100m"
+   },
+   "smuggle":{
+      "enable":true,
+      "always_do_smuggle":false,
+      "smuggle_min_cash":"2m",
+      "smuggle_max_cash":"100m"
+   },
+   "pimp":{
+      "enable":true,
+      "disable_if_bullets_below":"90k"
+   },
+   "trading":{
+      "enable":true,
+      "min_cash_required":"100m",
+      "credit_amount":100,
+      "max_to_offer":"50m",
+      "accept_trades":true,
+      "create_trades":true
+   },
+   "actions":{
+      "crime":true,
+      "car_jack":true,
+      "bad_santa":true,
+      "suitcases":true,
+      "heal":true,
+      "breakout":true,
+      "gym": true,
+      "weapon_training": true
+   },
+   "misc":{
+      "is_premium":false,
+      "sleep_between_actions":2,
+      "sleep_after_run":40
+   }
+}
